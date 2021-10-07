@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_general">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_noteSize"
+            android:summary="@string/pref_description_note_size"
+            android:title="@string/pref_note_size" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_auto_save"
+            android:title="@string/pref_auto_save" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_password">
+        <com.davidfadare.notes.settings.PasswordPreference
+            android:defaultValue="0"
+            android:key="pref_pass"
+            android:summary="@string/pref_description_master_key"
+            android:title="@string/pref_master_key" />
+
+        <com.davidfadare.notes.settings.PasswordSwitchPreference
+            android:defaultValue="true"
+            android:key="pref_pass_enable"
+            android:summary="@string/pref_description_protection"
+            android:title="@string/pref_note_protection" />
+
+        <com.davidfadare.notes.settings.PasswordSwitchPreference
+            android:defaultValue="false"
+            android:dependency="pref_pass_enable"
+            android:key="pref_gen_enable"
+            android:summary="@string/pref_description_general"
+            android:title="@string/pref_note_general" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notifications_custom"
+            android:title="@string/pref_title_new_message_notifications" />
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="notifications_custom"
+            android:key="pref_ringtone"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/pref_description_ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="notifications_custom"
+            android:key="pref_vibrate"
+            android:title="@string/pref_title_vibrate" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

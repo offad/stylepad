@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <View
+        android:id="@+id/list_border"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/color_circle" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/listitem_background"
+        android:fadingEdge="horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                android:id="@+id/date_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/list_info"
+                android:fontFamily="sans-serif-light"
+                android:gravity="start"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#999999"
+                tools:text="MON, 19 JAN" />
+
+            <LinearLayout
+                android:id="@+id/list_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/pin_image"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/listitem_pin"
+                    tools:ignore="contentDescription" />
+
+                <ImageView
+                    android:id="@+id/lock_image"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/listitem_lock"
+                    tools:ignore="contentDescription" />
+
+                <ImageView
+                    android:id="@+id/clock_image"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/listitem_clock_alert"
+                    tools:ignore="contentDescription" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:baselineAligned="false"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                tools:text="@string/note_title" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

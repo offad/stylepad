@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY appname "Stylepad">
+    ]>
+
+<resources>
+    <string name="note_title">शीर्षक</string>
+    <string name="note_text">टेक्स्ट</string>
+    <string name="note_color">रंग</string>
+    <string name="note_date">दिनांक</string>
+    <string name="note_alarm">अलार्म</string>
+
+    <string name="my_notepad">मेरा नोटपैड</string>
+    <string name="empty_view_title_text">यह थोड़ा यहाँ अकेला है&#8230;</string>
+    <string name="empty_view_subtitle_text">नोट जोड़कर शुरुआत करें</string>
+    <string name="empty_view_drawing_title_text">कोई चित्र नहीं जोड़ा गया&#8230;</string>
+    <string name="empty_view_audio_title_text">कोई रिकॉर्डिंग नहीं मिली&#8230;</string>
+
+    <string name="list_view_note_not_found">कोई रिकॉर्ड नहीं मिला!</string>
+    <string name="list_view_note_found">%1$d रिकॉर्ड मिला!</string>
+
+    <string name="list_view_notes_deleted_name">हटाए गए#%1$d.db</string>
+    <string name="list_view_note_deleted_name">हटाए गएNote#%1$d.txt</string>
+    <string name="list_view_notes_delete_exported_name">%1$d नोट हटाए गए और %2$s को निर्यात किए गए</string>
+
+    <string name="list_view_note_password_incorrect">गलत पासवर्ड</string>
+    <string name="list_view_note_password_reset">पासवर्ड रीसेट</string>
+
+    <string name="error_occurred">एक त्रुटि पाई गई</string>
+
+    
+    <string name="editor_activity_title_new_note">नोट जोड़े</string>
+    <string name="editor_activity_title_edit_note">नोट संपादित करें</string>
+
+    <string name="editor_note_alarm_disabled">कोई अधिसूचना सेट नहीं</string>
+    <string name="editor_note_alarm_failed">अमान्य दिनांक के लिए अलार्म सेट</string>
+    <string name="editor_note_alarm_time">%2$s पर %1$s</string>
+
+    <string name="editor_delete_note_successful">नोट हटाया गया और %1$s को निर्यात किया गया</string>
+    <string name="editor_delete_note_failed">नोट हटाते समय त्रुटि</string>
+
+    <string name="editor_saved">कृपया इस नोट को शीर्षक और सहेजना सुनिश्चित करें।</string>
+    <string name="editor_saved_complete">कृपया इस नोट को सहेजना सुनिश्चित करें।</string>
+    <string name="editor_drawing_cleared">रेखाचित्र साफ किया।</string>
+    <string name="editor_drawing_redo_error">फिर से नहीं कर सकते</string>
+    <string name="editor_drawing_undo_error">पूर्ववत नहीं कर सकते</string>
+
+    <string name="editor_alarm_channel_name">अनुस्मारक</string>
+    <string name="editor_alarm_channel_description">स्टाइलपैड के नोट रिमाइंडर के लिए उपयोग किया जाने वाला चैनल।</string>
+    
+    <string name="delete">हटाना</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="discard">छोड़ना</string>
+    <string name="remove">हटाना</string>
+    <string name="clean">स्वच्छ</string>
+    <string name="purchase_now">अभी खरीदो</string>
+
+    <string name="ok">ठीक</string>
+    <string name="done">किया हुआ</string>
+    <string name="open_file">खुली फाइल</string>
+
+    <string name="reset">रीसेट</string>
+    
+    <string name="unsaved_changes_dialog_msg">अपने परिवर्तनों को छोड़ें और संपादन छोड़ दें?</string>
+    <string name="keep_editing">एडिटिंग करते रहें</string>
+
+    <string name="remove_alarm_dialog_msg">अपने अलार्म को त्यागें?</string>
+
+    <string name="password_set_dialog_msg">एक पासवर्ड सेट करें।</string>
+    <string name="password_enter_dialog_msg">पासवर्ड दर्ज करे।</string>
+    <string name="key_enter_dialog_msg">मास्टर कुंजी दर्ज करें।</string>
+
+    <string name="premium_prompt">प्रीमियम सामग्री</string>
+    <string name="premium_dialog_msg">इस कार्रवाई को जारी रखने के लिए स्टाइलपैड प्रीमियम की आवश्यकता है</string>
+
+    <string name="image_select_dialog_msg">नई ड्राइंग के लिए स्रोत का चयन करें</string>
+
+    <string name="install_file_msg">कृपया एक फ़ाइल प्रबंधक स्थापित करें</string>
+    <string name="invalid_file_msg">अमान्य फ़ाइल चयनित</string>
+
+    <string name="clear_prompt_single">क्या आप पक्का इस नोट को मिटाना चाहते हैं?</string>
+    <string name="clear_note_prompt">क्या आप वाकई अपने सभी नोट हटाना चाहते हैं?</string>
+
+    <string name="share_note_prompt">इस नोट को भेजें</string>
+
+    <string name="editor_insert_note_info">जानकारी</string>
+    <string name="editor_insert_note_details">विवरण</string>
+    <string name="editor_insert_note_drawing">चि त्र का री</string>
+    <string name="editor_insert_note_audio">ऑडियो</string>
+    <string name="editor_insert_note_successful">नोट सहेजा गया</string>
+    <string name="editor_insert_note_failed">इस नोट को सहेजते समय त्रुटि</string>
+    <string name="editor_insert_alarm_failed">अधिसूचना सेटिंग विफल रही</string>
+    <string name="editor_insert_note_empty">दुर्भाग्य से, यह नोट खाली है और इसे बचाया नहीं जा सकता है।</string>
+    <string name="editor_insert_title_empty">खाली पदवी</string>
+
+    
+    <string name="options_activity">विकल्प</string>
+    <string name="about_activity">के बारे में</string>
+    <string name="about_activity_summary">संपर्क और लाइसेंस</string>
+
+    
+    <string name="pref_header_permission">अनुमति नहीं दी गई</string>
+
+    <string name="pref_header_export">निर्यात</string>
+    <string name="pref_export_name">नाम</string>
+    <string name="pref_header_export_summary">अपना नोटपैड निर्यात करें</string>
+    <string name="pref_header_export_failed">निर्यात विफल रहा। जांचें कि ऐप में आवश्यक अनुमतियां हैं।</string>
+    <string name="pref_header_export_failed_name">नाम खाली नहीं हो सकता।</string>
+
+    <string name="pref_header_export_text">पाठ फ़ाइल के रूप में निर्यात करें (.txt)</string>
+    <string name="pref_header_export_db">SQLite डेटाबेस (.db) के रूप में निर्यात करें</string>
+
+    <string name="pref_header_export_successful">निर्यात पूरा हुआ</string>
+    <string name="pref_header_export_tag">%1$s पर फ़ाइल निर्यात की गई</string>
+
+    <string name="pref_header_backup">बैकअप और पुनर्स्थापना</string>
+    <string name="pref_header_import">आयात</string>
+    <string name="pref_note_import_successful">फ़ाइल आयात की गई</string>
+    <string name="pref_note_import_successful_from">%1$s से आयात किया गया</string>
+    <string name="pref_note_import_failed_compatible">फ़ाइल में आयात करने के लिए पर्याप्त संगत सुविधाएँ नहीं हैं</string>
+    <string name="pref_note_import_failed_file_type">फ़ाइल में SQLite डेटाबेस नहीं है। कृपया एक .db फ़ाइल चुनें</string>
+    <string name="pref_note_import_failed_file_type_2">अमान्य फ़ाइल प्रकार</string>
+    <string name="pref_note_import_failed_file_location">अमान्य फ़ाइल स्थान</string>
+    <string name="pref_header_backup_summary">अपने बैकअप प्रबंधित करें</string>
+
+    <string name="pref_purchase_premium">स्टाइलपैड प्रीमियम</string>
+    <string name="pref_inapp_products">उत्पाद</string>
+
+    <string name="pref_action_desc"><![CDATA[<a href="www.twitter.com/DavidFadR">David Fadare - @DavidFadR</a>]]>द्वारा बनाया गया।<![CDATA[<br>]]>मेरे दोस्तों, परिवार और इस उत्पाद का समर्थन करने वाले सभी लोगों का धन्यवाद।</string>
+    
+    <string name="pref_header_general">सामान्य</string>
+    <string name="pref_header_general_summary">नोट पूर्वावलोकन, सूचनाएं, आदि</string>
+    <string name="pref_note_size">नोट पाठ पूर्वावलोकन सक्षम करें</string>
+    <string name="pref_description_note_size">नोटपैड में प्रत्येक नोट के लिए पाठ प्रदर्शित करें</string>
+    <string name="pref_auto_save">नोटपैड को ऑटो-सेव सक्षम करें</string>
+
+    
+    <string name="pref_header_password">पारण शब्द</string>
+    <string name="pref_note_protection">पासवर्ड लॉक हो गया है</string>
+    <string name="pref_passwords_disabled">मास्टर कुंजी का उपयोग करने के लिए पासवर्ड अक्षम या सेट किए गए हैं। इसे बदलने के लिए सेटिंग्स की जाँच करें</string>
+    <string name="pref_description_protection">अपने नोट्स पर पासवर्ड सक्षम करें</string>
+    <string name="pref_note_general">सामान्य पासवर्ड</string>
+
+    <string name="pref_note_password_old">पुराना पासवर्ड</string>
+    <string name="pref_note_password_new">नया पासवर्ड</string>
+    <string name="pref_note_password_repeat">अपना नया पासवर्ड दोहराएं</string>
+
+    <string name="pref_description_general">अपनी सामान्य कुंजी के रूप में अपनी मास्टर कुंजी सेट करें। यह प्रत्येक नोट के लिए अलग-अलग पासवर्ड की पूर्वता लेगा।</string>
+
+    <string name="pref_description_master_key">यह वह कुंजी है जो अनधिकृत पार्टी द्वारा पासवर्ड लॉक को बदलने से रोकती है। डिफ़ॉल्ट रूप से 0 पर सेट करें।</string>
+    <string name="pref_master_key">मास्टर चाबी</string>
+    <string name="pref_master_key_changed">चाबी बदल दी</string>
+    <string name="pref_master_key_empty">नया पासवर्ड खाली नहीं हो सकता</string>
+    <string name="pref_master_key_failed">पुराने पासवर्ड के लिए गलत कुंजी दर्ज की गई। यह डिफ़ॉल्ट रूप से 0 है</string>
+
+    <string name="pref_master_key_confirm">मास्टर कुंजी की पुष्टि करें</string>
+
+    <string name="pref_header_localization">स्थानीयकरण</string>
+    <string name="pref_header_language">भाषा</string>
+    <string name="pref_language_summary">डिफ़ॉल्ट भाषा सेट करें</string>
+
+    <string name="pref_header_notifications">सूचनाएं</string>
+    <string name="pref_title_new_message_notifications">सूचनाओं के लिए रिंगटोन सक्षम करें</string>
+    <string name="pref_title_ringtone">रिंगटोन</string>
+    <string name="pref_description_ringtone">अपनी सूचनाओं के लिए एक रिंगटोन चुनें।</string>
+    <string name="title_activity_settings">सेटिंग्स</string>
+    <string name="pref_title_vibrate">कांपना</string>
+    <string name="pref_ringtone_silent">मूक</string>
+
+    
+    <string name="action_send">बचाना</string>
+    <string name="action_edit">संपादित करें</string>
+    <string name="action_save">बचाना</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="search">खोज</string>
+    <string name="action_delete_all_entries">नोट हटाएं</string>
+
+    
+    <string name="feedback">के लिए प्रतिक्रिया</string>
+    <string name="share">के साथ शेयर करें</string>
+    <string name="rate_this_app">इस ऐप्लिकेशन को रेट करे!</string>
+    <string name="send_feedback">प्रतिक्रिया भेजें</string>
+
+    
+    <string name="action_password">पारण शब्द</string>
+    <string name="action_pin">पिन</string>
+    <string name="pin_off">बंद</string>
+    <string name="pin_on">पर</string>
+    <string name="pref_header_import_phone">फोन भंडारण</string>
+    <string name="pref_header_import_drive">गूगल ड्राइव</string>
+    <string name="pref_header_import_options_name">अपने डिवाइस का नाम</string>
+    <string name="pref_header_upload">अपलोड</string>
+
+</resources>

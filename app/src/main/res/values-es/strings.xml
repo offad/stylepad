@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY appname "Stylepad">
+    ]>
+
+
+<resources>
+    <string name="note_title">Título</string>
+    <string name="note_text">Texto</string>
+    <string name="note_color">Color</string>
+    <string name="note_date">Fecha</string>
+    <string name="note_alarm">Alarma</string>
+
+    <string name="my_notepad">Mi bloc de notas</string>
+    <string name="empty_view_title_text">Es un poco solitario aquí&#8230;</string>
+    <string name="empty_view_subtitle_text">Comience agregando una nota</string>
+    <string name="empty_view_drawing_title_text">No hay dibujos añadidos&#8230;</string>
+    <string name="empty_view_audio_title_text">No se encontraron grabaciones&#8230;</string>
+
+    <string name="list_view_note_not_found">¡No se encontrarón archivos!</string>
+    <string name="list_view_note_found">%1$d registros encontrados!</string>
+
+    <string name="list_view_notes_deleted_name">Eliminado#%1$d.db</string>
+    <string name="list_view_note_deleted_name">EliminadoNota#%1$d.txt</string>
+    <string name="list_view_notes_delete_exported_name">Notas de %1$d eliminadas y exportadas a %2$s</string>
+
+    <string name="list_view_note_password_incorrect">Contraseña incorrecta</string>
+    <string name="list_view_note_password_reset">Restablecimiento de contraseña</string>
+
+    <string name="error_occurred">Ocurrió un error</string>
+
+    
+    <string name="editor_activity_title_new_note">Añadir la nota</string>
+    <string name="editor_activity_title_edit_note">Editar nota</string>
+
+    <string name="editor_note_alarm_disabled">Sin notificación establecida</string>
+    <string name="editor_note_alarm_failed">Alarma programada para una fecha inválida</string>
+    <string name="editor_note_alarm_time">%1$s en %2$s</string>
+
+    <string name="editor_delete_note_successful">Nota borrada y exportada a %1$s</string>
+    <string name="editor_delete_note_failed">Error al borrar nota</string>
+
+    <string name="editor_saved">Por favor, asegúrese de titular y guardar esta nota.</string>
+    <string name="editor_saved_complete">Por favor, asegúrese de guardar esta nota.</string>
+    <string name="editor_drawing_cleared">Dibujo borrado.</string>
+    <string name="editor_drawing_redo_error">No se puede rehacer</string>
+    <string name="editor_drawing_undo_error">No se puede deshacer</string>
+
+    <string name="editor_alarm_channel_name">Recordatorios</string>
+    <string name="editor_alarm_channel_description">El canal utilizado para los recordatorios de notas de Stylepad.</string>
+
+    <string name="delete">Borrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="discard">Descarte</string>
+    <string name="remove">Retirar</string>
+    <string name="clean">Limpiar</string>
+    <string name="purchase_now">Comprar ahora</string>
+
+    <string name="ok">DE ACUERDO</string>
+    <string name="done">Hecho</string>
+    <string name="open_file">Abrir documento</string>
+
+    <string name="reset">reiniciar</string>
+    
+    <string name="unsaved_changes_dialog_msg">¿Desecha sus cambios y deja de editar?</string>
+    <string name="keep_editing">Seguir editando</string>
+
+    <string name="remove_alarm_dialog_msg">Desecha tu alarma?</string>
+
+    <string name="password_set_dialog_msg">Establecer una contraseña.</string>
+    <string name="password_enter_dialog_msg">Introduce la contraseña.</string>
+    <string name="key_enter_dialog_msg">Introduzca la clave maestra.</string>
+
+    <string name="premium_prompt">Contenido Premium</string>
+    <string name="premium_dialog_msg">Stylepad Premium es necesario para continuar esta acción.</string>
+
+    <string name="image_select_dialog_msg">Seleccione la fuente para el nuevo dibujo.</string>
+
+    <string name="install_file_msg">Por favor, instale un administrador de archivos</string>
+    <string name="invalid_file_msg">Archivo inválido seleccionado</string>
+
+    <string name="clear_prompt_single">¿Estás seguro que quieres eliminar esta nota?</string>
+    <string name="clear_note_prompt">¿Seguro que quieres borrar todas tus notas?</string>
+
+    <string name="share_note_prompt">Enviar esta nota a</string>
+
+    <string name="editor_insert_note_info">INFO</string>
+    <string name="editor_insert_note_details">DETALLES</string>
+    <string name="editor_insert_note_drawing">DIBUJO</string>
+    <string name="editor_insert_note_audio">AUDIO</string>
+    <string name="editor_insert_note_successful">Nota guardada</string>
+    <string name="editor_insert_note_failed">Error al guardar esta nota</string>
+    <string name="editor_insert_alarm_failed">Ajustes de notificación fallidos</string>
+    <string name="editor_insert_note_empty">Desafortunadamente, esta nota está vacía y no se puede guardar.</string>
+    <string name="editor_insert_title_empty">Título vacío</string>
+
+    
+    <string name="options_activity">Opciones</string>
+    <string name="about_activity">Acerca de</string>
+    <string name="about_activity_summary">Contacto y licencias</string>
+
+    
+    <string name="pref_header_permission">Permiso no concedido</string>
+
+    <string name="pref_header_export">Exportar</string>
+    <string name="pref_export_name">Nombre</string>
+    <string name="pref_header_export_summary">Exporta tu bloc de notas</string>
+    <string name="pref_header_export_failed">La exportación ha fallado. Compruebe que la aplicación tiene los permisos necesarios.</string>
+    <string name="pref_header_export_failed_name">El nombre no puede estar vacío.</string>
+
+    <string name="pref_header_export_text">Exportar como archivo de texto (.txt)</string>
+    <string name="pref_header_export_db">Exportar como una base de datos SQLite (.db)</string>
+
+    <string name="pref_header_export_successful">Exportación completada</string>
+    <string name="pref_header_export_tag">Archivo exportado a %1$s</string>
+
+    <string name="pref_header_backup">Copia de seguridad y restaurar</string>
+    <string name="pref_header_import">Importar</string>
+    <string name="pref_note_import_successful">Archivo importado</string>
+    <string name="pref_note_import_successful_from">Importado desde %1$s</string>
+    <string name="pref_note_import_failed_compatible">El archivo no tiene suficientes características compatibles para ser importado</string>
+    <string name="pref_note_import_failed_file_type">El archivo no tiene una base de datos SQLite. Por favor, elija un archivo .db</string>
+    <string name="pref_note_import_failed_file_type_2">tipo de archivo invalido</string>
+    <string name="pref_note_import_failed_file_location">Ubicación de archivo no válida</string>
+    <string name="pref_header_backup_summary">Gestiona tus copias de seguridad</string>
+
+    <string name="pref_purchase_premium">Stylepad Premium</string>
+    <string name="pref_inapp_products">Producto</string>
+
+    <string name="pref_action_desc">Creado por <![CDATA[<a href="www.twitter.com/DavidFadR">David Fadare - @DavidFadR</a>]]><![CDATA[<br>]]>Gracias a mis amigos, familiares y todos los que apoyan este producto.</string>
+    
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_general_summary">Avance de notas, notificaciones, etc.</string>
+    <string name="pref_note_size">Habilitar vista previa de texto de nota</string>
+    <string name="pref_description_note_size">Muestra el texto de cada nota en el bloc de notas.</string>
+    <string name="pref_auto_save">Habilitar auto-guardar el bloc</string>
+
+    
+    <string name="pref_header_password">Contraseña</string>
+    <string name="pref_note_protection">Bloqueo de contraseña</string>
+    <string name="pref_passwords_disabled">Las contraseñas están deshabilitadas o configuradas para usar la clave maestra. Compruebe la configuración para cambiar esto</string>
+    <string name="pref_description_protection">Habilita contraseñas en tus notas</string>
+    <string name="pref_note_general">General Password</string>
+
+    <string name="pref_note_password_old">Contraseña anterior</string>
+    <string name="pref_note_password_new">Nueva contraseña</string>
+    <string name="pref_note_password_repeat">Repite tu nueva contraseña</string>
+
+    <string name="pref_description_general">Establezca su clave maestra como su contraseña general. Tendrá prioridad la contraseña individual para cada nota.</string>
+
+    <string name="pref_description_master_key">Esta es la clave que impide que una parte no autorizada cambie el bloqueo de la contraseña. Establecido en 0 por defecto.</string>
+    <string name="pref_master_key">Llave maestra</string>
+    <string name="pref_master_key_changed">Llave cambiada</string>
+    <string name="pref_master_key_empty">La nueva contraseña no puede estar vacía</string>
+    <string name="pref_master_key_failed">Se ha introducido una clave incorrecta para la contraseña anterior. Esto es 0 por defecto</string>
+
+    <string name="pref_master_key_confirm">Confirmar clave maestra</string>
+
+    <string name="pref_header_localization">Localización</string>
+    <string name="pref_header_language">Idioma</string>
+    <string name="pref_language_summary">Establecer idioma por defecto</string>
+
+    <string name="pref_header_notifications">Notificaciones</string>
+    <string name="pref_title_new_message_notifications">Habilitar tonos de llamada para notificaciones</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_description_ringtone">Elija un tono de llamada para sus notificaciones.</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="pref_title_vibrate">Vibrar</string>
+    <string name="pref_ringtone_silent">Silencio</string>
+
+    
+    <string name="action_send">Salvar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="search">Buscar</string>
+    <string name="action_delete_all_entries">Eliminar notas</string>
+
+    
+    <string name="feedback">Feedback para</string>
+    <string name="share">Compartir con</string>
+    <string name="rate_this_app">¡Califica esta aplicación!</string>
+    <string name="send_feedback">Enviar comentarios</string>
+
+    
+    <string name="action_password">Contraseña</string>
+    <string name="action_pin">Alfiler</string>
+    <string name="pin_off">Apagado</string>
+    <string name="pin_on">En</string>
+    <string name="pref_header_import_phone">Almacenamiento Del Teléfono</string>
+    <string name="pref_header_import_drive">Google Drive</string>
+    <string name="pref_header_import_options_name">Nombra tu dispositivo</string>
+    <string name="pref_header_upload">Subir</string>
+
+
+    <!-- Generated by Automatic String Resource Translation
+--><!--          https://asrt.gluege.boerde.de            
+--></resources>

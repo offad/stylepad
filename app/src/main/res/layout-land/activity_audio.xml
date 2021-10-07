@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/audio_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/audio_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/audio_clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="start"
+            android:padding="24dp"
+            app:srcCompat="@drawable/menu_close"
+            tools:ignore="contentDescription" />
+
+        <ImageView
+            android:id="@+id/audio_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:padding="24dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/menu_check"
+            tools:ignore="contentDescription" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.davidfadare.notes.util.CircularProgressBar
+                android:id="@+id/audio_progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_horizontal" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/audio_pause_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:scaleX="2.0"
+                android:scaleY="2.0"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:visibility="invisible"
+                app:drawableTopCompat="@drawable/dialog_pause"
+                tools:ignore="contentDescription" />
+
+            <Chronometer
+                android:id="@+id/audio_chronometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:padding="16dp"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#e5e5e5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/audio_title_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e5e5e5"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:text="@string/note_title"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@android:color/white" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/audio_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@android:color/white"
+                    android:inputType="text"
+                    android:textColor="@android:color/white"
+                    tools:text="Google Pixel" />
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/audio_record_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_below="@id/audio_title_layout"
+                android:layout_centerHorizontal="true"
+                android:elevation="4dp"
+                android:padding="@dimen/fab_margin"
+                app:srcCompat="@drawable/dialog_record"
+                tools:ignore="contentDescription" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

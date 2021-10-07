@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_action_view"
+        android:icon="@drawable/menu_magnify"
+        android:orderInCategory="30"
+        android:title="@string/search"
+        android:visible="true"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/delete_all"
+        android:icon="@drawable/menu_delete_sweep"
+        android:orderInCategory="40"
+        android:visible="false"
+        android:title="@string/action_delete_all_entries"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:orderInCategory="50"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>

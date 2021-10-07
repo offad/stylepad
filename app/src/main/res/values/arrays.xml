@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="language_options">
+        <item>@string/en</item>
+        <item>@string/es</item>
+        <item>@string/hi</item>
+    </string-array>
+
+    <string-array name="array_pin_options">
+        <item>@string/pin_off</item>
+        <item>@string/pin_on</item>
+    </string-array>
+
+    <string-array name="color_options">
+        <item>@string/purple_note</item>
+        <item>@string/pink_note</item>
+        <item>@string/red_note</item>
+        <item>@string/orange_note</item>
+        <item>@string/yellow_note</item>
+        <item>@string/green_note</item>
+        <item>@string/blue_note</item>
+        <item>@string/white_note</item>
+        <item>@string/brown_note</item>
+        <item>@string/black_note</item>
+    </string-array>
+
+    <string-array name="pref_export_options">
+        <item>@string/pref_header_export_text</item>
+        <item>@string/pref_header_export_db</item>
+    </string-array>
+</resources>

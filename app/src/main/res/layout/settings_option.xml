@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
+
+            <include layout="@layout/pref_layout_general" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/export"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
+
+            <include layout="@layout/pref_layout_export" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/backup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
+
+            <include layout="@layout/pref_layout_restore" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/purchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
+
+            <include layout="@layout/pref_layout_purchase" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
+
+            <include layout="@layout/pref_layout_feedback" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
+
+            <include layout="@layout/pref_layout_rate" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
+
+            <include layout="@layout/pref_layout_about" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

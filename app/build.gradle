@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    lintOptions {
+        // checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId APP_ID
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 39
+        versionName "5.8"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        resConfigs "en", "es", "hi"
+    }
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\FEMI\\Documents\\Programming\\Android\\App Assets\\Keystore.jks')
+            storePassword 'Success604'
+            keyAlias 'key0'
+            keyPassword 'Success604'
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion '28.0.3'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation "com.android.billingclient:billing:$version_billing"
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0-rc01'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta2'
+    implementation "androidx.room:room-runtime:$version_room"
+    kapt "androidx.room:room-compiler:$version_room"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version_coroutines"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version_coroutines"
+
+    implementation 'com.google.android.material:material:1.1.0-alpha08'
+    implementation 'com.google.android.gms:play-services-ads:18.1.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.google.http-client:google-http-client-gson:1.26.0'
+
+    implementation 'com.google.api-client:google-api-client-android:1.26.0'
+    implementation 'com.google.apis:google-api-services-drive:v3-rev136-1.25.0'
+    implementation 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+
+    implementation 'com.mikepenz:aboutlibraries:6.2.0'
+    implementation 'com.github.Kunzisoft:Android-SwitchDateTimePicker:2.0'
+    implementation 'com.ogaclejapan.smarttablayout:library:2.0.0@aar'
+    implementation 'com.googlecode.mp4parser:isoparser:1.1.22'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+}
+
+configurations {
+    all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+}
+
+repositories {
+    mavenCentral()
+}

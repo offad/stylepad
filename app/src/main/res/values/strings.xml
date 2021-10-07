@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appname "Stylepad">]>
+
+<resources>
+    <string name="app_name" translatable="false">&appname;</string>
+
+    <!-- Google drive IDs -->
+    <string name="drive_id" translatable="false">294245378120-bb3t2vlgjtltc0uhubouchqcdpbqb74g.apps.googleusercontent.com</string>
+    <string name="api_key" translatable="false">AIzaSyC2lEBMfU4f4e-U2QaYGP0noeu9dmco4pU</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_main_footer" translatable="false">ca-app-pub-1224423417336067/2528750795</string>
+    <string name="banner_edit_footer" translatable="false">ca-app-pub-1224423417336067/4388627379</string>
+    <string name="app_ad_id" translatable="false">ca-app-pub-1224423417336067~1965767729</string>
+
+    <!-- Strings related to Main Activity-->
+    <string name="note_title">Title</string>
+    <string name="note_text">Text</string>
+    <string name="note_color">Color</string>
+    <string name="note_date">Date</string>
+    <string name="note_alarm">Alarm</string>
+
+    <string name="my_notepad">My Notepad</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here&#8230;</string>
+    <string name="empty_view_subtitle_text">Get started by adding a note</string>
+    <string name="empty_view_drawing_title_text">No drawings added&#8230;</string>
+    <string name="empty_view_audio_title_text">No recordings found&#8230;</string>
+
+    <string name="list_view_note_not_found">No records found!</string>
+    <string name="list_view_note_found">%1$d records found!</string>
+
+    <string name="list_view_notes_deleted_name">Deleted#%1$d.db</string>
+    <string name="list_view_note_deleted_name">DeletedNote#%1$d.txt</string>
+    <string name="list_view_notes_delete_exported_name">%1$d notes deleted and exported to %2$s</string>
+
+    <string name="list_view_note_password_incorrect">Incorrect password</string>
+    <string name="list_view_note_password_reset">Password reset</string>
+
+    <string name="error_occurred">An error occurred</string>
+
+    <!--Strings related to the Editor Activity -->
+    <string name="editor_activity_title_new_note">Add Note</string>
+    <string name="editor_activity_title_edit_note">Edit Note</string>
+
+    <string name="editor_note_alarm_disabled">No notification set</string>
+    <string name="editor_note_alarm_failed">Alarm set for an invalid date</string>
+    <string name="editor_note_alarm_time">%1$s at %2$s</string>
+
+    <string name="editor_delete_note_successful">Note deleted and exported to %1$s</string>
+    <string name="editor_delete_note_failed">Error while deleting note</string>
+
+    <string name="editor_saved">Please make sure to title and save this note.</string>
+    <string name="editor_saved_complete">Please make sure to save this note.</string>
+    <string name="editor_drawing_cleared">Drawing cleared.</string>
+    <string name="editor_drawing_redo_error">Cannot redo</string>
+    <string name="editor_drawing_undo_error">Cannot undo</string>
+
+    <string name="editor_alarm_channel_name">Reminders</string>
+    <string name="editor_alarm_channel_description">The channel used for Stylepad\'s note reminders.</string>
+
+    <!-- Dialog button text actions -->
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard">Discard</string>
+    <string name="remove">Remove</string>
+    <string name="clean">Clean</string>
+    <string name="purchase_now">Purchase Now</string>
+
+    <string name="ok">OK</string>
+    <string name="done">Done</string>
+    <string name="open_file">Open File</string>
+
+    <string name="reset">reset</string>
+
+    <!-- Dialog messages -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="remove_alarm_dialog_msg">Discard your alarm?</string>
+
+    <string name="password_set_dialog_msg">Set a password.</string>
+    <string name="password_enter_dialog_msg">Enter the password.</string>
+    <string name="key_enter_dialog_msg">Enter the master key.</string>
+
+    <string name="image_select_dialog_msg">Select the source for the new drawing</string>
+
+    <string name="install_file_msg">Please install a File Manager</string>
+    <string name="invalid_file_msg">Invalid file selected</string>
+
+    <string name="clear_prompt_single">Are you sure you want to delete this note?</string>
+    <string name="clear_note_prompt">Are you sure you want to delete all your notes?</string>
+
+    <string name="premium_prompt">Premium Content</string>
+    <string name="premium_dialog_msg">Stylepad Premium is needed to continue this action</string>
+
+    <string name="share_note_prompt">Send this note to</string>
+
+    <string name="editor_insert_note_info">INFO</string>
+    <string name="editor_insert_note_details">DETAILS</string>
+    <string name="editor_insert_note_drawing">DRAWING</string>
+    <string name="editor_insert_note_audio">AUDIO</string>
+    <string name="editor_insert_note_successful">Saved</string>
+    <string name="editor_insert_note_failed">Error while saving this note</string>
+    <string name="editor_insert_alarm_failed">Notification settings failed</string>
+    <string name="editor_insert_note_empty">Unfortunately, this note is empty and cannot be saved.</string>
+    <string name="editor_insert_title_empty">Empty title</string>
+
+    <!-- Strings related to About Activity-->
+    <string name="options_activity">Options</string>
+    <string name="about_activity">About</string>
+    <string name="about_activity_summary">Contact and licenses</string>
+
+    <!-- Strings related to Settings Activity-->
+    <string name="pref_header_permission">Permission not granted</string>
+
+    <string name="pref_header_export">Export</string>
+    <string name="pref_export_name">Name</string>
+    <string name="pref_header_export_summary">Export your notepad</string>
+    <string name="pref_header_export_failed">Export failed. Check that the app has the necessary permissions.</string>
+    <string name="pref_header_export_failed_name">Name cannot be empty.</string>
+
+    <string name="pref_header_export_text">Export as a Text file(.txt)</string>
+    <string name="pref_header_export_db">Export as a SQLite database(.db)</string>
+
+    <string name="pref_header_export_successful">Export completed</string>
+    <string name="pref_header_export_tag">File exported to %1$s</string>
+
+    <string name="pref_header_backup">Backup and Restore</string>
+    <string name="pref_header_import_phone">Phone Storage</string>
+    <string name="pref_header_import_drive">Google Drive</string>
+    <string name="pref_header_import_options_name">Name your device</string>
+    <string name="pref_header_import">Import</string>
+    <string name="pref_header_upload">Upload</string>
+    <string name="pref_note_import_successful">File imported</string>
+    <string name="pref_note_import_successful_from">Imported from %1$s</string>
+    <string name="pref_note_import_failed_compatible">The file does not have enough compatible features to be imported</string>
+    <string name="pref_note_import_failed_file_type">The file does not have a SQLite database. Please choose a .db file</string>
+    <string name="pref_note_import_failed_file_type_2">Invalid file type</string>
+    <string name="pref_note_import_failed_file_location">Invalid file location</string>
+    <string name="pref_header_backup_summary">Manage your backups</string>
+
+    <!-- Strings related to Purchase Activity-->
+    <string name="pref_purchase_premium">Stylepad Premium</string>
+    <string name="pref_inapp_products">Products</string>
+
+    <string name="pref_action_desc">Created by <![CDATA[<a href="www.twitter.com/DavidFadR">David Fadare - @DavidFadR</a>]]><![CDATA[<br>]]>Thanks to my friends, family, and all who support this product.</string>
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_general_summary">Note preview, notifications, etc</string>
+    <string name="pref_note_size">Enable note text preview</string>
+    <string name="pref_description_note_size">Display the text for each note in the notepad</string>
+    <string name="pref_auto_save">Enable notepad auto-save</string>
+
+    <!-- Password settings -->
+    <string name="pref_header_password">Password</string>
+    <string name="pref_note_protection">Password lock</string>
+    <string name="pref_passwords_disabled">Passwords are disabled or set to use the master key. Check the settings to change this</string>
+    <string name="pref_description_protection">Enable passwords on your notes</string>
+    <string name="pref_note_general">General Password</string>
+
+    <string name="pref_note_password_old">Old Password</string>
+    <string name="pref_note_password_new">New Password</string>
+    <string name="pref_note_password_repeat">Repeat your New Password</string>
+
+    <string name="pref_description_general">Set your master key as your general password. It will take precedence to the individual password for each note.</string>
+
+    <string name="pref_description_master_key">This is the key that prevents password lock to be changed by an unauthorised party. Set to 0 by default. </string>
+    <string name="pref_master_key">Master Key</string>
+    <string name="pref_master_key_changed">Key changed</string>
+    <string name="pref_master_key_empty">The new password cannot be empty</string>
+    <string name="pref_master_key_failed">Wrong key entered for old password. This is 0 by default</string>
+
+    <string name="pref_master_key_confirm">Confirm Master Key</string>
+
+    <!-- Language settings-->
+    <string name="pref_header_localization">Localization</string>
+    <string name="pref_header_language">Language</string>
+    <string name="pref_language_summary">Set default language</string>
+
+    <!-- Notifications settings-->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">Enable ringtones for notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_description_ringtone">Pick a ringtone for your notifications.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <!-- Menu strings-->
+    <string name="action_send">Send</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_save">Save</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="action_delete_all_entries">Delete notes</string>
+
+    <!-- Strings for special settings-->
+    <string name="feedback">Feedback for </string>
+    <string name="share">Share with</string>
+    <string name="rate_this_app">Rate this app!</string>
+    <string name="send_feedback">Send feedback</string>
+
+    <!-- Language options -->
+    <string name="en" translatable="false">English</string>
+    <string name="es" translatable="false">Español</string>
+    <string name="hi" translatable="false">हिंदी</string>
+
+    <!-- Pin options -->
+    <string name="action_password">Password</string>
+    <string name="action_pin">Pin</string>
+    <string name="pin_off">Off</string>
+    <string name="pin_on">On</string>
+
+    <!-- Colors options-->
+    <string name="red_note" translatable="false">#F44336</string>
+    <string name="orange_note" translatable="false">#FF9800</string>
+    <string name="yellow_note" translatable="false">#FFEB3B</string>
+    <string name="green_note" translatable="false">#4CAF50</string>
+    <string name="blue_note" translatable="false">#2196F3</string>
+    <string name="purple_note" translatable="false">#9C27B0</string>
+    <string name="pink_note" translatable="false">#E91E63</string>
+    <string name="white_note" translatable="false">#E0E0E0</string>
+    <string name="brown_note" translatable="false">#795548</string>
+    <string name="black_note" translatable="false">#000000</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue_note</item>
+        <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
+    </style>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/blue_note</item>
+        <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="EditTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/blue_note</item>
+        <item name="colorAccent">@color/blue_note</item>
+        <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
+    </style>
+
+    <style name="BaseAppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+        <item name="colorPrimaryDark">@color/product_background</item>
+    </style>
+
+    <style name="PurchaseLabels" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/margin_std_half</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="InventoryRecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/margin_std_half</item>
+    </style>
+
+    <style name="myTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+        <item name="android:height">?attr/actionBarSize</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/app_head</item>
+    </style>
+
+    <style name="RedTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/red_note</item>
+        <item name="colorAccent">@color/red_note</item>
+        <item name="colorPrimaryDark">@color/red_note</item>
+    </style>
+
+    <style name="OrangeTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/orange_note</item>
+        <item name="colorAccent">@color/orange_note</item>
+        <item name="colorPrimaryDark">@color/orange_note</item>
+    </style>
+
+    <style name="YellowTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/yellow_note</item>
+        <item name="colorAccent">@color/yellow_note</item>
+        <item name="colorPrimaryDark">@color/yellow_note</item>
+    </style>
+
+    <style name="GreenTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/green_note</item>
+        <item name="colorAccent">@color/green_note</item>
+        <item name="colorPrimaryDark">@color/green_note</item>
+    </style>
+
+    <style name="BlueTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/blue_note</item>
+        <item name="colorAccent">@color/blue_note</item>
+        <item name="colorPrimaryDark">@color/blue_note</item>
+    </style>
+
+    <style name="PurpleTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/purple_note</item>
+        <item name="colorAccent">@color/purple_note</item>
+        <item name="colorPrimaryDark">@color/purple_note</item>
+    </style>
+
+    <style name="PinkTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/pink_note</item>
+        <item name="colorAccent">@color/pink_note</item>
+        <item name="colorPrimaryDark">@color/pink_note</item>
+    </style>
+
+    <style name="WhiteTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/white_note</item>
+        <item name="colorAccent">@color/white_note</item>
+        <item name="colorPrimaryDark">@color/white_note</item>
+    </style>
+
+    <style name="BrownTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/brown_note</item>
+        <item name="colorAccent">@color/brown_note</item>
+        <item name="colorPrimaryDark">@color/brown_note</item>
+    </style>
+
+    <style name="BlackTheme" parent="EditTheme">
+        <item name="colorPrimary">@color/black_note</item>
+        <item name="colorAccent">@color/black_note</item>
+        <item name="colorPrimaryDark">@color/black_note</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

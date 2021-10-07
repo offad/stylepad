@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/widget_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            tools:ignore="contentDescription"
+            tools:src="@drawable/app_icon" />
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_toStartOf="@id/widget_button"
+            android:layout_toEndOf="@id/widget_icon"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="start"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="Stylepad" />
+
+        <ImageView
+            android:id="@+id/widget_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            tools:ignore="contentDescription"
+            tools:src="@drawable/menu_plus" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/widget_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_box"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        tools:listitem="@layout/list_item_widget" />
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/empty_note_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_empty_notepad"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/empty_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/empty_note_image"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:minLines="2"
+            android:paddingTop="16dp"
+            android:scrollHorizontally="false"
+            android:text="@string/empty_view_title_text"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/darker_gray" />
+    </RelativeLayout>
+</RelativeLayout>

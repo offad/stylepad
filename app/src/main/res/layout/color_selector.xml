@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/color_grid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:choiceMode="singleChoice"
+    android:divider="@null"
+    android:drawSelectorOnTop="true"
+    android:gravity="center"
+    android:horizontalSpacing="8dp"
+    android:listSelector="@drawable/color_selector"
+    android:numColumns="4"
+    android:verticalSpacing="8dp"
+    tools:listitem="@layout/color_item" />
+

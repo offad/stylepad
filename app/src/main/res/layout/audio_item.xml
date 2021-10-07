@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/audio_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="16dp"
+        android:tint="@android:color/black"
+        app:srcCompat="@drawable/dialog_play"
+        tools:ignore="contentDescription" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/audio_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            tools:text="Voice 001" />
+
+        <TextView
+            android:id="@+id/audio_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="00:00" />
+
+        <SeekBar
+            android:id="@+id/audio_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/audio_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="1 Jan" />
+
+        <View
+            android:id="@+id/audio_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/background_dark" />
+    </LinearLayout>
+</LinearLayout>

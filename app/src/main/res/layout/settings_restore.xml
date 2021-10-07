@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        tools:context=".settings.RestoreActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFF"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="@string/pref_header_import_phone"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/import_button"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:text="@string/pref_header_import" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFF"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="@string/pref_header_import_drive"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:id="@+id/btn_layout"
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/upload_btn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#EEE"
+                    android:elevation="2dp"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/pref_header_upload"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/import_btn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#EEE"
+                    android:elevation="2dp"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/pref_header_import"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/restore_progress"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:indeterminate="true"
+                android:keepScreenOn="true"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFF"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="8dp"
+                android:text="@string/options_activity"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/pref_header_import_options_name"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/file_title_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    tools:text="Google Pixel" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_delete"
+        android:icon="@drawable/menu_delete"
+        android:title="@string/delete"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/nav_send"
+        android:icon="@drawable/menu_send"
+        android:title="@string/action_send"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/nav_edit"
+        android:icon="@drawable/menu_edit"
+        android:title="@string/action_edit"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+</menu>
